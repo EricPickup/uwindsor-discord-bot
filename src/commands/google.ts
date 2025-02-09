@@ -42,7 +42,7 @@ const googleModule: CommandType = {
       const embed = new EmbedBuilder()
         .setColor(Colors.Blue)
         .setAuthor({
-          name: `Requested by ${interaction.user.displayName}`,
+          name: `Requested by ${interaction.user.nickname}`,
           iconURL: `${interaction.user?.avatarURL()}`,
         })
         .setTimestamp();
